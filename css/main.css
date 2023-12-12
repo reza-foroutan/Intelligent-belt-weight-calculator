@@ -633,6 +633,10 @@ video {
   width: auto;
 }
 
+.w-\[25\%\] {
+  width: 25%;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -691,6 +695,11 @@ video {
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
 
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -736,6 +745,10 @@ video {
 
 .pt-24 {
   padding-top: 6rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -788,6 +801,10 @@ video {
 
 .leading-\[40px\] {
   line-height: 40px;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .text-\[\#212121\] {
