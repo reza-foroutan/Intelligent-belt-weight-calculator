@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intelligent Belt Weight Calculator App</title>
+    <link rel="stylesheet" type="text/css" href="./css/settings/settings.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- initialize nav -->
+    <nav class="w-full h-[40px] bg-slate-700 text-white flex">
+      <div class="w-full h-full flex items-center">
+        <div class="w-auto text-center px-3 box-border mx-2 flex justify-center leading-[40px] h-[inherit] bg-orange-400 ">
+          <a href="/" class="font-medium"><span>خانه</span></a>
+        </div>
+        <div class="w-auto text-center px-3 box-border mx-2 flex justify-center leading-[40px] h-[inherit] bg-orange-400 ">
+          <a href="#" class="font-medium"><span>محاسبه گر هوشمند وزن</span></a>
+        </div>
+      </div>
+    </nav>
+    <!-- end initialize nav -->
+      <!-- initialize main -->
+      <main>
+        <!-- initialize wrapper -->
+        <div class="w-full h-full bg-gray-200">
+          <div class="h-100vh pt-24 pb-10 px-14 box-border">
+            <div class="w-[100%]">
+              <div class="w-full h-full flex justify-between p-5 box-border">
+                <div class="w-[75%]">
+                  <!-- initialize title  -->
+                  <div>
+                    <div>
+                      <h2 class="pt-0 box-border text-[#212121] font-normal text-[33px] leading-6 mb-[1.5em]">محاسبه گر هوشمند وزن تسمه</h2>
+                    </div>
+                    <div></div>
+                  </div>
+                  <!-- end initialize title  -->
+                  <!-- initialize copyRight  -->
+                  <div>
+                    <div>
+                      <span class="box-border text-[#424242] text-[14px]">تمام حق و حقوق مادی و معنوی این محاسبه گر مربوط سایت <a href="#" title="کوآلا دولوپر" target="_blank">کوآلا دولوپر</a> میباشد.</span>
+                    </div>
+                    <div></div>
+                  </div>
+                  <!-- end initialize copyRight  -->
+                  <!-- initialize Form  -->
+                  <div>
+                    <div>
+                      <form action="#">
+                        <!-- initialize Form label Alloy material-->
+                        <div>
+                          <div>
+                            <label class="text-[16px] font-bold mb-2 inline-block p-0 box-border cursor-pointer text-[#424242]" for="alloy_material">جنس آلیاژ</label>
+                          </div>
+                          <div></div>
+                        </div>
+                        <!-- end initialize Form label Alloy material-->
+                        <!-- initialize Form select -->
+                        <div>
+                          <div>
+                            <select name="input_6" id="alloy_material" class="w-full max-w-full text-[15px] mb-0 mt-0 box-border h-[3em] min-h-[3em] leading-[3em] border-2 border-slate-900 border-solid" aria-invalid="false">
+                              <option class="font-normal block min-h[1.2em] pt-0 pr-[2px] pb-[1px] box-border text-[15px] leading-[3em] text-right" value="استیل">استیل</option>
+                              <option class="font-normal block min-h[1.2em] pt-0 pr-[2px] pb-[1px] box-border text-[15px] leading-[3em] text-right" value="آهن">آهن</option>
+                              <option class="font-normal block min-h[1.2em] pt-0 pr-[2px] pb-[1px] box-border text-[15px] leading-[3em] text-right" value="آلومینیوم">آلومینیوم</option>
+                              <option class="font-normal block min-h[1.2em] pt-0 pr-[2px] pb-[1px] box-border text-[15px] leading-[3em] text-right" value="برنجی">برنجی</option>
+                              <option class="font-normal block min-h[1.2em] pt-0 pr-[2px] pb-[1px] box-border text-[15px] leading-[3em] text-right" value="مس">مس</option>
+                              <option class="font-normal block min-h[1.2em] pt-0 pr-[2px] pb-[1px] box-border text-[15px] leading-[3em] text-right" value="فسفربرنز">فسفربرنز</option>
+                            </select>
+                          </div>
+                          <div></div>
+                        </div>
+                        <!-- end initialize Form select -->
+                        <!-- initialize Form  label Belt thickness -->
+                        <div>
+                          <div>
+                            <label class="text-[16px] font-bold mt-3 mb-2 inline-block p-0 box-border cursor-pointer text-[#424242]" for="belt_thickness">ضخامت تسمه (mm)</label>
+                          </div>
+                          <div></div>
+                        </div>
+                        <!-- end initialize label Belt thickness -->
+                        <!-- end initialize input Belt thickness -->
+                        <div>
+                          <div>
+                            <input name="input_3" id="belt_thickness" type="text" value="" class="w-full text-[15px] p-2 box-border mb-0 mt-0 max-w-full min-h-[3em] leading-[3em] font-normal border-2 border-slate-900 border-solid" aria-invalid="false" />
+                          </div>
+                          <div></div>
+                        </div>
+                        <!-- end initialize input Belt thickness -->
+                        <!-- initialize label  Belt length -->
+                        <div>
+                          <div>
+                            <label class="text-[16px] font-bold mt-3 mb-2 inline-block p-0 box-border cursor-pointer text-[#424242]" for="belt_length">طول تسمه (mm)</label>
+                          </div>
+                          <div></div>
+                        </div>
+                        <!-- end initialize label  Belt length -->
+                        <!-- initialize input Belt length -->
+                        <div>
+                          <div>
+                            <input name="input_2" id="belt_length" type="text" value="" class="w-full text-[15px] p-2 box-border mb-0 mt-0 max-w-full min-h-[3em] leading-[3em] font-normal border-2 border-slate-900 border-solid" aria-invalid="false" />
+                          </div>
+                          <div></div>
+                        </div>
+                        <!-- end initialize input Belt length -->
+                        <!-- initialize label belt width -->
+                        <div>
+                          <div>
+                            <label class="text-[16px] font-bold mt-3 mb-2 inline-block p-0 box-border cursor-pointer text-[#424242] " for="belt width">عرض تسمه (mm)</label>
+  
+                          </div>
+                          <div></div>
+                        </div>
+                        <!-- end initialize label belt width -->
+                        <!-- initialize input belt width -->
+                        <div>
+                          <div>
+                            <input name="belt width" id="belt width" type="text" value="" class="w-full text-[15px] p-2 box-border mb-0 mt-0 max-w-full min-h-[3em] leading-[3em] font-normal border-2 border-slate-900 border-solid" aria-invalid="false" />
+                          </div>
+                          <div></div>
+                        </div>
+                        <!-- end initialize input belt width -->
+                        <!-- initialize label weight -->
+                        <div>
+                          <div>
+                            <label class="text-[16px] font-bold mt-3 mb-2 inline-block p-0 box-border cursor-pointer text-[#424242]" for="weight">وزن (kg)</label>
+  
+                          </div>
+                          <div></div>
+                        </div>
+                        <!-- end initialize label weight -->
+                        <!-- initialize input weight -->
+                        <div>
+                          <div>
+                            <input name="input_4" id="input_6_4" type="text" value="" class="w-full text-[15px] p-2 box-border mb-0 mt-0 max-w-full min-h-[3em] leading-[3em] font-normal border-2 border-slate-900 border-solid" readonly="readonly" aria-invalid="false">
+                          </div>
+                          <div></div>
+                        </div>
+                        <!-- end initialize input weight -->
+  
+                      </form>
+                    </div>
+                    <div></div>
+                  </div>
+                  <!-- end initialize Form  -->
+                </div>
+                <div class="w-[5%]"></div>
+                <div class="w-[20%]">
+                  <div>
+                    <div class="">
+                      <img class="w-full h-full box-border object-cover" src="./public/images/محاسبه-گر-وزن-تسمه.jpg" alt="محاسبه گر هوشمند وزن تسمه" title="محاسبه گر هوشمند وزن تسمه" />
+                    </div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end initialize wrapper -->
+      </main>
+      <!-- end initialize main -->
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
