@@ -29,8 +29,9 @@ body::-webkit-scrollbar-thumb {
 
 :root {
     --direction: rtl;
-    --font-family: "iranyekan",sans-serif;
+    --font-family: "IRANSansWebFaNum-Medium",sans-serif;
     --color-neutral-000: #fff;
+    --color-link:#3498db
 }
 
 body {
@@ -53,4 +54,5 @@ body {
 a {
     text-decoration: none;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
+    color: var(--color-link);
 }

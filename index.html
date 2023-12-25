@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intelligent Belt Weight Calculator App</title>
     <link rel="stylesheet" type="text/css" href="./css/settings/settings.css" />
+    <link rel="stylesheet" type="text/css" href="./css/settings/font-face-IRANSansWebFaNum-Medium.css" />
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
   </head>
   <body>
@@ -40,7 +41,7 @@
                   <!-- initialize copyRight  -->
                   <div>
                     <div>
-                      <span class="box-border text-[#424242] text-[14px] leading-6 sm:leading-8">تمام حق و حقوق مادی و معنوی این محاسبه گر مربوط سایت <a href="https://koala-developer.ir/" title="کوآلا دولوپر" target="_blank">کوآلا دولوپر</a> میباشد.</span>
+                      <span class="box-border text-[#424242] text-[14px] leading-6 sm:leading-8">تمام حق و حقوق مادی و معنوی این محاسبه گر مربوط سایت <a href="https://koala-developer.ir/" class="text-[#3498db]" title="کوآلا دولوپر" target="_blank">کوآلا دولوپر</a> میباشد.</span>
                     </div>
                     <div></div>
                   </div>
@@ -48,7 +49,7 @@
                   <!-- initialize Form  -->
                   <div>
                     <div>
-                      <form action="#">
+                      <form action="#" class="form_alloy_material">
                         <!-- initialize Form label Alloy material-->
                         <div>
                           <div>
@@ -60,7 +61,7 @@
                         <!-- initialize Form select -->
                         <div>
                           <div>
-                            <select name="input_6" id="alloy_material" class="w-full max-w-full text-[15px] mb-0 mt-0 box-border h-[3em] min-h-[3em] leading-[3em] border-2 border-slate-900 border-solid" aria-invalid="false">
+                            <select name="input_6" id="alloy_material" class="w-full max-w-full text-[15px] mb-0 mt-0 box-border pr-4 h-[3em] min-h-[3em] leading-[3em] border-2 border-slate-900 border-solid" aria-invalid="false">
                               <option class="font-normal block min-h[1.2em] pt-0 pr-[2px] pb-[1px] box-border text-[15px] leading-[3em] text-right" value="استیل">استیل</option>
                               <option class="font-normal block min-h[1.2em] pt-0 pr-[2px] pb-[1px] box-border text-[15px] leading-[3em] text-right" value="آهن">آهن</option>
                               <option class="font-normal block min-h[1.2em] pt-0 pr-[2px] pb-[1px] box-border text-[15px] leading-[3em] text-right" value="آلومینیوم">آلومینیوم</option>
@@ -83,7 +84,7 @@
                         <!-- end initialize input Belt thickness -->
                         <div>
                           <div>
-                            <input name="input_3" id="belt_thickness" type="text" value="" class="w-full text-[15px] p-2 box-border mb-0 mt-0 max-w-full min-h-[3em] leading-[3em] font-normal border-2 border-slate-900 border-solid" aria-invalid="false" />
+                            <input name="input_3" id="belt_thickness" type="text" value="" class="w-full text-[15px] p-2 box-border mb-0 mt-0 max-w-full min-h-[3em] leading-[3em] font-normal border-2 border-slate-900 border-solid  belt_thickness" aria-invalid="false" />
                           </div>
                           <div></div>
                         </div>
@@ -91,7 +92,7 @@
                         <!-- initialize label  Belt length -->
                         <div>
                           <div>
-                            <label class="text-[16px] font-bold mt-3 mb-2 inline-block p-0 box-border cursor-pointer text-[#424242]" for="belt_length">طول تسمه (mm)</label>
+                            <label class="text-[16px] font-bold mt-3 mb-2 inline-block p-0 box-border cursor-pointer text-[#424242] belt_thickness" for="belt_length">طول تسمه (mm)</label>
                           </div>
                           <div></div>
                         </div>
@@ -99,7 +100,7 @@
                         <!-- initialize input Belt length -->
                         <div>
                           <div>
-                            <input name="input_2" id="belt_length" type="text" value="" class="w-full text-[15px] p-2 box-border mb-0 mt-0 max-w-full min-h-[3em] leading-[3em] font-normal border-2 border-slate-900 border-solid" aria-invalid="false" />
+                            <input name="input_2" id="belt_length" type="text" value="" class="w-full text-[15px] p-2 box-border mb-0 mt-0 max-w-full min-h-[3em] leading-[3em] font-normal border-2 border-slate-900 border-solid belt_length" aria-invalid="false" />
                           </div>
                           <div></div>
                         </div>
@@ -107,7 +108,7 @@
                         <!-- initialize label belt width -->
                         <div>
                           <div>
-                            <label class="text-[16px] font-bold mt-3 mb-2 inline-block p-0 box-border cursor-pointer text-[#424242] " for="belt width">عرض تسمه (mm)</label>
+                            <label class="text-[16px] font-bold mt-3 mb-2 inline-block p-0 box-border cursor-pointer text-[#424242] " for="belt_width">عرض تسمه (mm)</label>
   
                           </div>
                           <div></div>
@@ -116,7 +117,7 @@
                         <!-- initialize input belt width -->
                         <div>
                           <div>
-                            <input name="belt width" id="belt width" type="text" value="" class="w-full text-[15px] p-2 box-border mb-0 mt-0 max-w-full min-h-[3em] leading-[3em] font-normal border-2 border-slate-900 border-solid" aria-invalid="false" />
+                            <input name="belt width" id="belt_width" type="text" value="" class="w-full text-[15px] p-2 box-border mb-0 mt-0 max-w-full min-h-[3em] leading-[3em] font-normal border-2 border-slate-900 border-solid belt_width" aria-invalid="false" />
                           </div>
                           <div></div>
                         </div>
@@ -133,7 +134,7 @@
                         <!-- initialize input weight -->
                         <div>
                           <div>
-                            <input name="input_4" id="input_6_4" type="text" value="" class="w-full text-[15px] p-2 box-border mb-0 mt-0 max-w-full min-h-[3em] leading-[3em] font-normal border-2 border-slate-900 border-solid" readonly="readonly" aria-invalid="false">
+                            <input name="input_4" id="weight_blet" type="text" value="" class="w-full text-[15px] p-2 box-border mb-0 mt-0 max-w-full min-h-[3em] leading-[3em] font-normal border-2 border-slate-900 border-solid weight_blet" readonly="readonly" aria-invalid="false">
                           </div>
                           <div></div>
                         </div>
@@ -147,9 +148,12 @@
                 </div>
                 <div class="w-[5%]"></div>
                 <div class="w-[20%]">
-                  <div>
-                    <div class="">
-                      <img class="w-full h-full box-border object-cover" src="./public/images/محاسبه-گر-وزن-تسمه.jpg" alt="محاسبه گر هوشمند وزن تسمه" title="محاسبه گر هوشمند وزن تسمه" />
+                  <div class="w-[100%]">
+                    <div class="w-full">
+                      <picture>
+                        <source type="image/jpg" src="./public/images/محاسبه-گر-وزن-تسمه.jpg" srcset="./public/images/محاسبه-گر-وزن-تسمه.jpg"/>
+                        <img class="w-full h-full box-border object-cover" src="./public/images/محاسبه-گر-وزن-تسمه.jpg" alt="محاسبه گر هوشمند وزن تسمه" title="محاسبه گر هوشمند وزن تسمه" />
+                      </picture>
                     </div>
                     <div></div>
                   </div>
@@ -162,7 +166,7 @@
       </main>
       <!-- end initialize main -->
       <!-- initialize footer -->
-      <footer class="w-full h-[40px] bg-slate-400">
+      <footer class="w-full h-[40px] bg-slate-700 text-white">
         <div class="flex justify-center items-center">
           <div class="w-[20%]"></div>
           <div class="w-[20%]"></div>
@@ -173,15 +177,15 @@
         <div class="w-full h-[40px]">
           <div class="flex justify-between items-center leading-10">
             <div>
-              <p>
-                حقوق این وب سایت نزد <a href="https://koala-developer.ir/">کوآلا دولوپر</a> محفوظ می باشد.
+              <p class="px-4 box-border font-medium">
+                حقوق این وب سایت نزد <a href="https://koala-developer.ir/"  class="text-[#3498db]"  target="_blank">کوآلا دولوپر</a> محفوظ می باشد.
                 </p>
             </div>
             <div>
                
   
-              <p style="direction: ltr;" class="text-left font-medium" >
-                <span>© 2023 - 2023 </span><span><a href="https://koala-developer.ir/">koala-developer</a></span>. <span> Designed by <a href="https://rezaforoutan.ir/">rezaforoutan</a></span>
+              <p style="direction: ltr;" class="text-left font-medium px-4 box-border" >
+                <span>© 2023 - 2023 </span><span><a href="https://koala-developer.ir/"  class="text-[#3498db]" target="_blank">koala-developer</a></span>. <span> Designed by <a href="https://rezaforoutan.ir/"   class="text-[#3498db]" target="_blank">rezaforoutan</a></span>
               </p>
               </div>
           </div>

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'IRANSansWebFaNum-Medium';
+    src: url('../../public/fonts/fa/IRANSansWebFaNum-Medium/IRANSansWebFaNum-Medium.eot');
+    src: url('../../public/fonts/fa/IRANSansWebFaNum-Medium/IRANSansWebFaNum-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../public/fonts/fa/IRANSansWebFaNum-Medium/IRANSansWebFaNum-Medium.woff2') format('woff2'),
+        url('../../public/fonts/fa/IRANSansWebFaNum-Medium/IRANSansWebFaNum-Medium.woff') format('woff'),
+        url('../../public/fonts/fa/IRANSansWebFaNum-Medium/IRANSansWebFaNum-Medium.ttf') format('truetype'),
+        url('../../public/fonts/fa/IRANSansWebFaNum-Medium/IRANSansWebFaNum-Medium.svg#IRANSansWebFaNum-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
