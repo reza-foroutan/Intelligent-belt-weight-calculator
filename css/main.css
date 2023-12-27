@@ -814,6 +814,26 @@ video {
   color: rgb(52 152 219 / var(--tw-text-opacity));
 }
 
+.hover\:bg-slate-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.hover\:px-4:hover {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.hover\:px-2:hover {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.hover\:text-\[\#3498db\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(52 152 219 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:leading-10 {
     line-height: 2.5rem;
